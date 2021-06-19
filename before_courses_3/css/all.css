@@ -318,7 +318,7 @@ h3 {
 }
 
 .banner {
-  background-image: url(../../image/banner.png);
+  background-image: url(../image/banner.png);
   height: 105vh;
   background-repeat: no-repeat;
   background-position: center;
