@@ -1,0 +1,68 @@
+.card {
+    flex: 0 0 65.957446808%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &-item {
+        margin-bottom: 20px;
+    }
+
+    &-header {
+        position: relative;
+    }
+
+    &-flag {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        writing-mode: vertical-rl;
+        padding: 10.08px 10px;
+        background-color: $primary;
+        color: $secondary;
+    }
+
+    &-favorite {
+        position: absolute;
+        top: 19px;
+        right: 22px;
+        cursor: pointer;
+
+        &:hover {
+            color: $primary;
+        }
+    }
+
+    &-body {
+        display: flex;
+        border-left: 1px solid $secondary;
+        border-right: 1px solid $secondary;
+
+        &>li {
+            padding: 14px 0;
+        }
+
+        &-title {
+            flex: 0 0 60%;
+
+        }
+
+        &-price {
+            flex: 0 0 40%;
+            border-left: 1px solid $secondary;
+        }
+    }
+}
+
+
+.addCart_btn {
+    padding: 16px 0;
+    background-color: $secondary;
+    transition: all 0.5s;
+    line-height: 33px;
+
+    &:hover {
+        background-color: $primary;
+        color: $white;
+    }
+}

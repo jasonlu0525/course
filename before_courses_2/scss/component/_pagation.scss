@@ -1,0 +1,40 @@
+.pagation {
+    flex: 0 0 100%;
+    margin-top: 10px;
+
+    .active {
+        background-color: $primary;
+        color: $white;
+    }
+
+    &-list {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &-link,
+    &-change_page {
+        padding: 16px 26px;
+        line-height: 28px;
+        outline: 1px solid $secondary;
+    }
+
+    &-link {
+        &:hover {
+            background-color: $secondary;
+            color: $primary;
+        }
+
+        &:active {
+            background-color: $primary;
+            color: $white;
+        }
+    }
+
+    &-change_page {
+        &:hover {
+            background-color: $secondary;
+        }
+    }
+
+}

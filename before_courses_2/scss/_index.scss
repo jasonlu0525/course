@@ -1,0 +1,46 @@
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.banner {
+    margin-bottom: 60px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.aside {
+    flex: 0 0 31.914893617%;
+}
+
+.h2 {
+    padding: 16px 0;
+    color: $secondary;
+
+    &:hover:not(.active) {
+        color: $primary;
+        background-color: $secondary;
+    }
+}
+
+.menu {
+    .active {
+        background-color: $secondary;
+    }
+
+    &-item {
+        padding: 16px 0;
+        line-height: 33px;
+        transition: all 0.5s;
+
+        &:hover {
+            color: $white;
+            background-color: $primary;
+        }
+    }
+}

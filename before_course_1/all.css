@@ -1,0 +1,414 @@
+/* import font */
+
+@font-face {
+    font-family: PingFang-light;
+    src: url(font/PingFang\ Light.ttf);
+}
+
+@font-face {
+    font-family: PingFang-medium;
+    src: url(font/PingFang\ Medium.ttf);
+}
+
+@font-face {
+    font-family: sf-pro-light;
+    src: url(font/SF-Pro-Text-Light.otf);
+}
+
+@font-face {
+    font-family: sf-pro-regular;
+    src: url(font/SF-Pro-Text-Regular.otf);
+}
+
+@font-face {
+    font-family: sf-pro-semibold;
+    src: url(font/SF-Pro-Text-Semibold.otf);
+}
+
+@font-face {
+    font-family: sf-pro-medium;
+    src: url(font/SF-Pro-Text-Medium.otf);
+}
+
+/* import font */
+
+/* reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1,
+.h1 {
+    font-size: 5rem;
+    line-height: 1.1875;
+}
+
+h2,
+.h2 h3,
+.h3 {
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+h2,
+.h2 {
+    font-size: 2rem;
+}
+
+h3,
+.h3 {
+    font-size: 1.5rem;
+}
+
+body {
+    font-family: -apple-system, sf-pro-regular, PingFang-light, PingFang-medium, sf-pro-light, sf-pro-semibold, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+/* reset */
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.text-pingFang-light {
+    font-family: PingFang-light;
+}
+
+.text-pingFang-medium {
+    font-family: PingFang-medium;
+}
+
+.text-sf-pro-light {
+    font-family: sf-pro-light;
+}
+
+.text-sf-pro-regular {
+    font-family: sf-pro-regular;
+}
+
+.text-sf-pro-semibold {
+    font-family: sf-pro-semibold;
+}
+
+.text-sf-pro-medium {
+    font-family: sf-pro-medium;
+}
+
+.text-dark {
+    color: #000;
+}
+
+.text-red {
+    color: #A00404;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-blue-green {
+    background-color: #415165;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mr-16px {
+    margin-right: 1rem;
+}
+
+.ml-16px {
+    margin-left: 1rem;
+}
+
+.mb-8px {
+    margin-bottom: 0.5rem;
+}
+
+.mb-8_15px {
+    margin-bottom: 0.509375rem;
+}
+
+.mb-16px {
+    margin-bottom: 1rem;
+}
+
+.mb-20px {
+    margin-bottom: 1.25rem;
+}
+
+.mx-24px {
+    margin: 0 1.5rem;
+}
+
+.mb-24px {
+    margin-bottom: 1.5rem;
+}
+
+.mb-32px {
+    margin-bottom: 2rem;
+}
+
+.mb-48px {
+    margin-bottom: 3rem;
+}
+
+.mb-72px {
+    margin-bottom: 4.5rem;
+}
+
+.mb-76px {
+    margin-bottom: 4.75rem;
+}
+
+.pt-16px {
+    padding-top: 1rem;
+}
+
+.pl-24px {
+    padding-left: 1.5rem;
+}
+
+.pt-40px {
+    padding-top: 2.5rem;
+}
+
+.fs-1_25rem {
+    font-size: 1.25rem;
+}
+
+.fs-1_5rem {
+    font-size: 1.5rem;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+/* 完整方向縮寫　放前面 */
+.border-bottom-dark {
+    border-bottom: 1px solid #000;
+}
+
+.border-bottom-white {
+    border-bottom: 1px solid #fff;
+}
+
+.border-left-light-blue {
+    border-left: 1px solid #96A9C4;
+}
+
+/* border-style　客製放後面覆蓋 */
+.border-bottom-width-2 {
+    border-bottom-width: 2px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.headLine {
+    padding-bottom: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.tittle {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    position: sticky;
+    top: 0;
+}
+
+.tittle .subtittle {
+    font-size: 1.5rem;
+    line-height: 29px;
+    font-weight: 600;
+}
+
+.skill {
+    padding: 24px 102px 51.5px;
+}
+
+.skill .skill-list {
+    padding-left: 1rem;
+    margin-top: 40.5px;
+}
+
+.experience-list {
+    max-width: 55%;
+}
+
+.footer {
+    padding: 1.5rem 0 3rem 0;
+}
+
+.link-hover:hover {
+    color: #A00404;
+}
+
+.link-active:active {
+    color: #96A9C4;
+}
