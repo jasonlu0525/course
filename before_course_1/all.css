@@ -2,33 +2,42 @@
 
 @font-face {
     font-family: PingFang-light;
-    src: url(font/PingFang\ Light.ttf);
+    src: url(font/PingFang\ Light.ttf) format("opentype");
+    unicode-range: U+4E00-9FFF, U+00-02AF;
 }
 
 @font-face {
     font-family: PingFang-medium;
-    src: url(font/PingFang\ Medium.ttf);
+    src: url(font/PingFang\ Medium.ttf) format("opentype");
+    unicode-range: U+4E00-9FFF, U+00-02AF;
 }
+
+
 
 @font-face {
     font-family: sf-pro-light;
-    src: url(font/SF-Pro-Text-Light.otf);
+    src: url(font/SF-Pro-Text-Light.otf) format("opentype");
+    unicode-range: U+00-02AF;
 }
 
 @font-face {
     font-family: sf-pro-regular;
-    src: url(font/SF-Pro-Text-Regular.otf);
+    src: url(font/SF-Pro-Text-Regular.otf) format("opentype");
+    unicode-range: U+00-02AF;
 }
 
 @font-face {
     font-family: sf-pro-semibold;
-    src: url(font/SF-Pro-Text-Semibold.otf);
+    src: url(font/SF-Pro-Text-Semibold.otf) format("opentype");
+    unicode-range: U+00-02AF;
 }
 
 @font-face {
     font-family: sf-pro-medium;
-    src: url(font/SF-Pro-Text-Medium.otf);
+    src: url(font/SF-Pro-Text-Medium.otf) format("opentype");
+    unicode-range: U+00-02AF;
 }
+
 
 /* import font */
 
@@ -174,7 +183,7 @@ table {
 
 img {
     max-width: 100%;
-    display: block;
+    vertical-align: middle;
     height: auto;
 }
 
@@ -224,26 +233,32 @@ body {
 
 .text-pingFang-light {
     font-family: PingFang-light;
+    font-weight: 300;
 }
 
 .text-pingFang-medium {
     font-family: PingFang-medium;
+    font-weight: 500;
 }
 
 .text-sf-pro-light {
     font-family: sf-pro-light;
+    font-weight: 300;
 }
 
 .text-sf-pro-regular {
     font-family: sf-pro-regular;
+    font-weight: 400;
 }
 
 .text-sf-pro-semibold {
     font-family: sf-pro-semibold;
+    font-weight: 600;
 }
 
 .text-sf-pro-medium {
     font-family: sf-pro-medium;
+    font-weight: 500;
 }
 
 .text-dark {
@@ -262,7 +277,7 @@ body {
     background-color: #fff;
 }
 
-.bg-blue-green {
+.bg-dark {
     background-color: #415165;
 }
 
@@ -274,72 +289,106 @@ body {
     text-align: center;
 }
 
-.mr-16px {
+
+
+.mr-4 {
     margin-right: 1rem;
 }
 
-.ml-16px {
+.ml-4 {
     margin-left: 1rem;
 }
 
-.mb-8px {
-    margin-bottom: 0.5rem;
+.ml-2 {
+    margin-left: 0.5rem;
+}
+
+.ml-6 {
+    margin-left: 1.5rem;
 }
 
 .mb-8_15px {
     margin-bottom: 0.509375rem;
 }
 
-.mb-16px {
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.mb-4 {
     margin-bottom: 1rem;
 }
 
-.mb-20px {
+.mb-5 {
     margin-bottom: 1.25rem;
 }
 
-.mx-24px {
+.mx-6 {
     margin: 0 1.5rem;
 }
 
-.mb-24px {
+.mb-6 {
     margin-bottom: 1.5rem;
 }
 
-.mb-32px {
+.mb-8 {
     margin-bottom: 2rem;
 }
 
-.mb-48px {
+.mb-12 {
     margin-bottom: 3rem;
 }
 
-.mb-72px {
+.mb-18 {
     margin-bottom: 4.5rem;
 }
 
-.mb-76px {
+.mb-19 {
     margin-bottom: 4.75rem;
 }
 
-.pt-16px {
+.pb-2 {
+    padding-bottom: 0.5rem;
+}
+
+.pt-4 {
     padding-top: 1rem;
 }
 
-.pl-24px {
+.pb-6 {
+    padding-bottom: 1.5rem;
+}
+
+.pl-2 {
+    padding-left: 0.5rem;
+}
+
+.pl-6 {
     padding-left: 1.5rem;
 }
 
-.pt-40px {
+.pt-10 {
     padding-top: 2.5rem;
 }
 
-.fs-1_25rem {
+.fs-m {
     font-size: 1.25rem;
+    /* 20px */
 }
 
-.fs-1_5rem {
+.fs-l {
     font-size: 1.5rem;
+    /* 24px */
+}
+
+.fs-xl {
+    font-size: 2rem;
+    /* 32px */
+}
+
+.fs-xxl {
+    font-size: 5rem;
+    /* 80px */
 }
 
 .fw-bold {
@@ -347,43 +396,44 @@ body {
 }
 
 /* 完整方向縮寫　放前面 */
-.border-bottom-dark {
+.border-left {
+    border-left: 1px solid #000;
+}
+
+.border-bottom {
     border-bottom: 1px solid #000;
 }
 
+
 .border-bottom-white {
-    border-bottom: 1px solid #fff;
+    border-bottom-color: #fff;
 }
 
 .border-left-light-blue {
-    border-left: 1px solid #96A9C4;
+    border-left-color: #96A9C4;
 }
 
 /* border-style　客製放後面覆蓋 */
-.border-bottom-width-2 {
+.border-bottom-2 {
     border-bottom-width: 2px;
 }
+
+/* index.html */
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.headLine {
-    padding-bottom: 1.5rem;
-    margin-bottom: 3rem;
-}
 
-.tittle {
+.title {
     display: flex;
     align-items: center;
-    padding-bottom: 0.5rem;
     position: sticky;
     top: 0;
 }
 
-.tittle .subtittle {
-    font-size: 1.5rem;
+.subtitle {
     line-height: 29px;
     font-weight: 600;
 }
@@ -392,8 +442,8 @@ body {
     padding: 24px 102px 51.5px;
 }
 
-.skill .skill-list {
-    padding-left: 1rem;
+.skill-list {
+
     margin-top: 40.5px;
 }
 
