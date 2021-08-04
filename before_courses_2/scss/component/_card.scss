@@ -6,6 +6,7 @@
 
     &-item {
         margin-bottom: 20px;
+        flex: 0 0 48.387096774%;
     }
 
     &-header {
@@ -27,9 +28,14 @@
         top: 19px;
         right: 22px;
         cursor: pointer;
+        fill: none;
+        stroke: $primary;
+        stroke-width: 50;
 
+        width: 20px;
+        height: 18px;
         &:hover {
-            color: $primary;
+         fill: $primary;
         }
     }
 
@@ -52,17 +58,16 @@
             border-left: 1px solid $secondary;
         }
     }
-}
 
+    &-footer {
+        padding: 16px 0;
+        background-color: $secondary;
+        transition: all 0.5s;
+        line-height: 33px;
 
-.addCart_btn {
-    padding: 16px 0;
-    background-color: $secondary;
-    transition: all 0.5s;
-    line-height: 33px;
-
-    &:hover {
-        background-color: $primary;
-        color: $white;
+        &:hover {
+            background-color: $primary;
+            color: $white;
+        }
     }
 }

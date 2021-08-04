@@ -1,10 +1,7 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: sticky;
-    background-color: $white;
     top: 0;
+    padding-top: 30px;
     margin-bottom: 30px;
     z-index: 999;
 }
@@ -24,20 +21,15 @@
 }
 
 .nav {
-    display: flex;
-    align-items: center;
-
     &-item {
         padding: 30px;
-
-        &.hover:hover {
+        transition: all .5s;
+        &:hover {
             background-color: $primary;
             color: $white;
         }
     }
-
-    .shopping_cart {
-        margin-left: 69px;
-    }
-
+}
+.shopping_cart {
+    margin-left: 69px;
 }

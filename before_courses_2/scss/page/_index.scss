@@ -1,0 +1,30 @@
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.aside {
+    flex: 0 0 31.914893617%;
+}
+
+.h2 {
+  
+    &:hover:not(.active) {
+        color: $primary;
+        background-color: $secondary;
+    }
+}
+
+.menu {
+   
+
+    &-item {
+        line-height: 33px;
+        transition: all 0.5s;
+
+        &:hover {
+            color: $white;
+            background-color: $primary;
+        }
+    }
+}

@@ -1,13 +1,18 @@
-@import "reset";
-//variable
-@import"variable";
-//utility
-@import"util";
-// layout/header
+@import "base/reset";
+@import "base/base";
+
+@import"abstracts/variable";
+
+@import"utils/background";
+@import"utils/layout";
+@import"utils/font_size";
+@import"utils/font_weight";
+@import"utils/spacing";
+@import"utils/text";
+
 @import"layout/header";
-//component card
+
 @import"component/card";
-//component pagation
 @import"component/pagation";
-//component index
-@import"index";
+
+@import"page/index";
