@@ -1,0 +1,8 @@
+.basic__transform__scale--hover {
+    transition: ease-in .5s;
+
+    &:hover {
+        transform: scale($scale-basic);
+    }
+
+}

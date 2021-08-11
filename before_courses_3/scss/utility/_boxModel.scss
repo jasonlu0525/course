@@ -1,47 +1,78 @@
-.mb-4px {
-    margin-bottom: 4px;
+// 4 的倍數
+
+.mb-1 {
+    margin-bottom: $space-1;
 }
 
-.mb-8px {
-    margin-bottom: 8px;
+.mb-2 {
+    margin-bottom: $space-2;
 }
 
-.mb-12px {
-    margin-bottom: 12px;
+.mb-3 {
+    margin-bottom: $space-3;
 }
 
-.mb-16px {
-    margin-bottom: 15px;
+.mb-4 {
+    margin-bottom: $space-4;
 }
 
-.mb-20px {
-    margin-bottom: 20px;
+.mb-5 {
+    margin-bottom: $space-5;
 }
 
-.mb-28px {
-    margin-bottom: 28px;
+.mb-7 {
+    margin-bottom: $space-7;
 }
 
-.mb-32px {
-    margin-bottom: 32px;
+.mb-8 {
+    margin-bottom: $space-8;
 }
 
-.mb-40px {
-    margin-bottom: 40px;
+.mb-10 {
+    margin-bottom: $space-10;
 }
 
-.mb-48px {
-    margin-bottom: 48px;
+.mb-12 {
+    margin-bottom: $space-12;
 }
 
-.mb-56px {
-    margin-bottom: 56px;
+.mb-14 {
+    margin-bottom: $space-14;
 }
 
-.mb-68px {
-    margin-bottom: 68px;
+.mb-17 {
+    margin-bottom: $space-17;
 }
 
-.mr-24px {
-    margin-right: 24px;
+.mr-6 {
+    margin-right: $space-6;
+}
+
+.mt-6{
+    margin-top: $space-6;
+}
+
+
+.pt-14 {
+    padding-top: $space-14;
+}
+.py-14 {
+    padding: $space-14 0;
+}
+.py-16 {
+    padding: $space-16 0;
+}
+
+.pb-36 {
+    padding-bottom: $space-36;
+
+}
+
+.pb-40 {
+    padding-bottom: $space-40;
+}
+
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
 }

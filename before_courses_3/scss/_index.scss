@@ -1,25 +1,12 @@
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
 
 .about {
-    padding: 56px 0;
-
+   
     &-horizontal-line {
         width: 384px;
         height: 0;
         border-bottom: 1px solid $primary;
-        margin: 24px 0 28px 0;
     }
-}
-
-.my-brand {
-    padding: 56px 0 160px 0;
-}
-
-.other-work {
-    padding: 56px 0 144px 0;
 }
 
 .exp-list::before {
